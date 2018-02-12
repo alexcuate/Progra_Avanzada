@@ -16,10 +16,11 @@ int main(){
         scanf("%d %d",&distances[i],&speeds[i]);
     }
     //Print the inputs
-    printf("%d %d\n",numberOfSegments,totalTime);
+/*  printf("%d %d\n",numberOfSegments,totalTime);
     for(int i=0;i<numberOfSegments;i++){
         printf("%d %d\n",distances[i],speeds[i]);
-    }
+    } */
 
+    
     return 0;
 }
