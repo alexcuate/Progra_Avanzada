@@ -1,0 +1,30 @@
+Roma gave Chef an array of intergers.
+Chef wants to make all integers in the array equal to 1.
+In a single operation, he can select a prime number p and a subset of the integers, and then divide all of the integers in the subset by p.
+Chef can make this operation only if every integer in the selected subset is divisible by p.
+
+Please help Chef to make all the integers in the array equal to 1 with minimum number of operations.
+
+Input
+The first line of input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+
+The first line of each test case contains a single integer N denoting the length of the array that Roma gave Chef.
+
+The second line contains N space-separated integers A1, A2, ..., AN denoting the integers in the array.
+Output
+For each test case, output a single line containing one integer - the minimum number of operations needed to make all numbers equal to 1.
+SOLUCION:
+El problema basicamente consta de dos tres ciclos importantes:
+- Las veces que se va a ejecutar el programa, es decir cuantos veces vamos a recibir values para el array
+
+-El tamano del array
+
+-El ciclo que va a correr la cantida de veces necesarias para nuestros inputs
+
+Para identificar si un numero es primo utilizare la funcion modulo entre los
+inputs anteriores y si se da el caso de que sea != 0 entonces el numero sera
+primo.
+
+Utilizare contadores y variables tipo int para la iteracion de mi programa
+
+Estoy Tomando en cuenta las restricciones del problema. 
